@@ -6,3 +6,27 @@ Activity yaitu salah satu komponen yang ada di Android Studio yang berfungsi unt
 Fragment merupakan salah satu komponen pada Android Studio dengan fungsi yang hampir sama seperti Activity, tetapi memiliki lifecycle yang berbeda. Fragment juga merupakan bagian dari sebuah Activity dimana sebuah Fragment tidak akan ada bila tidak ada sebuah Activity karena Fragment membutuhkan akses dari Activity untuk dapat dijalankan
 
 Intent adalah sebuah kelas pada programming Android yang berfungsi untuk perpindahan halaman. Intent juga merupakan suatu objek yang terdapat dalam Activity dimana objek tersebut dapat terhubung dengan Activity yang lain, baik Activity pada fungsi internal android seperti memanggil Activity dalam satu package maupun beda package yang masih berada dalam satu projek */
+
+// soal 2
+/*
+Activity memiliki siklus hidup (lifecycle) yang terdiri dari beberapa kondisi (state) dimulai dari onCreate. Berikut penjelasannya:
+- onCreate()
+Metode yang dijalankan ketika Activity diciptakan oleh sistem, pada kondisi ini banyak dilakukan inisiasi, seperti pemanggilan perintah layout, list data dan lainnya. contoh: setContentView(R.layout.activity_main);
+- onStart()
+Dipanggil ketika Activity sudah muncul pada smartphone, tetapi belum bisa menerima inputan/berinteraksi dengan user, metode ini diikuti oleh onResume() atau onStop()
+- onResume()
+Ketika sebuah Activity muncul dilayar smartphone dan siap menerima input/berinteraksi dengan user, pada saat ini Activity berada pada stack teratas dari Activity stack, Methode ini selalu diikuti oleh onPause()
+- onPause()
+Onpause() kebalikan dari onResume() Ketika Activity masih terlihat dilayar namun tidak dapat lagi menerima input dari user, metode ini diikuti onResume() atau onStop()
+- onStop()
+Kebalikan dari onStart() Ketika Activity sudah tidak terlihat lagi dilayar dan tidak dibutuhkan, metode ini diikuti onResume() atau onStop()
+- onDestroy()
+Ketika sebuah Activity dihancurkan secara permanen oleh sistem, dapat juga dilakukan dengan fungsi finish() atau isFinishing()
+- onRestart()
+Ketika Activity dipanggil kembali setelah menjalankan onStop(), metode ini selalu diikuti oleh onStart() */
+
+// soal 3
+/*
+- Linear Layout, merupakan layout yang menyejajarkan semua child view-nya dalam satu arah, secara vertikal atau horizontal
+- Relative Layout, merupakan layout yang penataan nya ini adalah penataan yang menempatkan widget-widget didalamnya seperti layer, sehingga sebuah widget dapat berada di atas/di bawah widget lainnya atau dengan kata lain Relative merupakan layout yang penataannya lebih bebas (Relative) sehingga bisa di tata di mana saja.
+- Constraint Layout, setiap View memiliki tali (Constraint) yang menarik tiap sisinya, yang mana tali tersebut bisa kita atur Elastisitas, Margin, dsb. Tali tersebut wajib kita “ikatkan” kepada anchor point atau suatu titik yang dapat berupa sisi dari Parent Layout, View lain, ataupun titik bantu (helper) yang bisa kita buat sendiri. Constraint Layout jauh lebih fleksibel dan lebih mudah digunakan di Layout Editor */
