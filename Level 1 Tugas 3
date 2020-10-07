@@ -1,0 +1,65 @@
+fun main(args: Array<String>) {
+// soal 1
+// ini comment satu baris
+/* Null Safety pada Kotlin yaitu salah atu fitur pada Kotlin yang dimana untuk mencegah potensi terjadinya null, ataupun tidak adanya nilai atau value karena NullpointerException */
+
+
+// soal 2
+// Tipe data String di Kotlin
+val namaDepan = "Indah"
+val namaBelakang = "Frisilina"
+var alamat = "Ciputat"
+
+println(namaDepan)
+println(namaBelakang)
+println(alamat)
+
+// Tipe data Number di Kotlin
+val umur = "24"
+val beratBadan = "52"
+val tinggiBadan = "163"
+
+println(umur)
+println(beratBadan)
+println(tinggiBadan)
+
+// Tipe data Operation di Kotlin
+val hasil1 = 6 / 2
+val hasil2 = 34 + 2
+val hasil3 = 44 - 23
+
+println(hasil1)
+println(hasil2)
+println(hasil3)
+
+//  Tipe data Character di Kotlin
+val char1 = "I"
+val char2 = "F"
+val char3 = "P"
+
+println(char1)
+println(char2)
+println(char3)
+
+
+// soal 3
+val angkaPertama = 652
+val angkaKedua = 24
+var total: Int
+
+// Penjumlahan
+total = angkaPertama + angkaKedua
+println("$angkaPertama + $angkaKedua = $total")
+
+// Pengurangan
+total = angkaPertama - angkaKedua
+println("$angkaPertama - $angkaKedua = $total")
+
+// Perkalian
+total = angkaPertama * angkaKedua
+println("$angkaPertama * $angkaKedua = $total")
+
+// Pembagian
+total = angkaPertama / angkaKedua
+println("$angkaPertama / $angkaKedua = $total")
+}
