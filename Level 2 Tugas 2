@@ -3,6 +3,6 @@ fun main(args: Array<String>) {
 /* 
 Activity yaitu salah satu komponen yang ada di Android Studio yang berfungsi untuk menampilkan interface (UI) dari aplikasi yang akan dibuat. Activity juga digunakan untuk melakukan berbagai kegiatan yang diperlukan di dalam aplikasi tersebut seperti berpindah dari satu tampilan ke tampilan lainnya., menjalankan program lain, dan masih banyak lagi yang dapat dilakukan di dalam sebuah Activity
 
-Fragment merupakan salah satu komponen pada Android Studio dengan fungsi yang hampir sama seperti Activity, tetapi memiliki ruang lingkup yang berbeda. Fragment juga merupakan bagian dari sebuah Activity dimana sebuah Fragment tidak akan ada bila tidak ada sebuah Activity karena Fragment membutuhkan akses dari Activity untuk dapat dijalankan
+Fragment merupakan salah satu komponen pada Android Studio dengan fungsi yang hampir sama seperti Activity, tetapi memiliki lifecycle yang berbeda. Fragment juga merupakan bagian dari sebuah Activity dimana sebuah Fragment tidak akan ada bila tidak ada sebuah Activity karena Fragment membutuhkan akses dari Activity untuk dapat dijalankan
 
 Intent adalah sebuah kelas pada programming Android yang berfungsi untuk perpindahan halaman. Intent juga merupakan suatu objek yang terdapat dalam Activity dimana objek tersebut dapat terhubung dengan Activity yang lain, baik Activity pada fungsi internal android seperti memanggil Activity dalam satu package maupun beda package yang masih berada dalam satu projek */
