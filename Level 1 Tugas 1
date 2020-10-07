@@ -1,0 +1,11 @@
+fun main(args: Array<String>) {
+  println("1. Indah Frisilina Putri")
+  println("2. 24 tahun")
+  println("3. Ciputat, Tangerang Selatan")
+  println("4. Watching Movie")
+  println("5. Universitas Sriwijaya")
+  println("6. sebagai challenge diri sendiri")
+  println("7. Ngoding skripsi")
+  println("8. Pernah, karena masih belum memahami basicnya")
+  println("9. Sangat tertarik akan tetapi bingung mau mulai darimana, dan juga untuk menambah ilmu pemograman")
+}
