@@ -1,0 +1,42 @@
+fun main(args: Array<String>) {
+//  soal 1    
+    print("nama: ")
+    val nama = readLine()
+    print("umur: ")
+    val umur = readLine()
+    print("alamat: ")
+    val alamat = readLine()
+    print("hobi: ")
+    val hobi = readLine()
+    print("asalSekolah: ")
+    val asalSekolah = readLine()
+    print("jurusan: ")
+    val jurusan = readLine()
+    print("alasanSukaProgramming: ")
+    val alasanSukaProgramming = readLine()
+
+    // menampilkan output
+    val templateBio = """
+    +------------------------------------------+
+    | DATA DIRI        
+    +------------------------------------------+
+      nama: $nama
+      umur: $umur
+      alamat: $alamat
+      hobi: $hobi
+      asalSekolah: $asalSekolah
+      jurusan: $jurusan
+      alasanSukaProgramming: $alasanSukaProgramming
+    """
+
+    println(templateBio)
+
+// soal 2
+print("Nama saya adalah $nama, asal sekolah/universitas $asalSekolah,jurusan saya adalah $jurusan, alasan suka programming yaitu $alasanSukaProgramming")
+
+// soal 3
+print("Perbedaan var dengan val adalah var disebut sebagai object Mutable yakni isinya dapat diubah, sedangkan val disebut sebagai object Immutable dimana isinya tidak dapat diubah")
+
+// soal 4
+print("Mutable yaitu variabel yang isinya dapat diubah dengan nilai lain, sedangkan Immutable kebalikan dari Mutable yang isinya tidak dapat diubah")
+}
